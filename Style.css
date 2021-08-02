@@ -1,0 +1,156 @@
+#button{
+    padding:10px 20px;
+    width: 250px;
+    text-align: center;
+    background-color:#ffc600;
+    border:0px solid black;
+    font-size: large;
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-right:35px ;
+    
+}
+body{
+    background-image: url("./Image/background.jpg");
+    background-size:cover;
+    height:220vh;
+   
+   
+}
+#menubar{
+    display: flex;
+   justify-content: space-between;
+    align-items: flex-start;
+}
+
+#leftsidebar{
+    float:left;
+    border:0px solid pink;
+    width:900px;
+    height:410px;
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-right:35px ;
+    background-image: url("./Image/Tacos.jpg");
+    background-size:cover;
+    
+
+}
+#right1{
+border:0px solid pink;
+width:480px;
+height:180px;
+margin-top: 50px;
+margin-left: 35px;
+margin-right:55px ; 
+    background-color:#ffc600 ;
+   
+    
+}
+
+#right2{
+    border:0px solid pink;
+    width:480px;
+height:180px;
+margin-top: 50px;
+margin-left: 35px;
+    margin-right:50px ; 
+    background-color:#ffc600 ;  
+}
+.price{
+    font-size:40px;
+    text-align: center;
+}
+
+#rightbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+#smalldiv{
+   
+    width:350px;
+    height:150px;
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-right:35px ;
+    background: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+   
+}
+
+    
+
+#small4div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+#large{
+    background: white;
+    text-align:center;
+    border: 1px solid white;
+    width:1435px;
+    height:350px;
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-right:35px ;
+}
+#button2{
+    width:150px;
+    height:40px;
+    background-color:#ffc600;
+}
+#image{
+  float:left;
+  margin-left: 35px;
+}
+#afterimage{
+    float:left;
+    margin-top: 100px;
+    font-size: large;
+}
+#gallary{
+    text-align: center;
+  font-size: 200%;
+   color:yellow;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+#lastdiv1{
+    display: flex;
+    flex-direction: row;
+    width:250px;
+    height:150px;
+    border:0px solid pink;
+    margin-left: 35px;
+    margin-right:35px ;
+}
+#div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right:35px ;
+    margin-top: 70px;
+}
+#lastdiv{
+    display: flex;
+    flex-direction: row;
+    width:450px;
+    height:150px;
+    border:0px solid pink;
+   
+}
